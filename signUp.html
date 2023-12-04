@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="signUp.css">
+  </head>
+  <body>
+
+    <section id="signUp">
+        <div class="title-text">SIGN UP</div>
+        <div class="form">
+            <form action="#" class="Sign-Up">
+                <div class="email">
+                    <input type="email" placeholder="   Email Address" required />
+                </div>
+                <div class="passwd-user">
+                    <input type="password" id="input-password" placeholder="    Password" required />
+                    <input type="password" id="konfirm-password" placeholder="    Confirm password" required />
+                </div>
+                <div class="show-passwd">
+                    <input type="checkbox" class="checkbox" id="showPasswordCheckbox" onclick="showPassword()" />
+                    <p>showPassword</p>
+                </div>
+                <a href="#">
+                    <button class="btn" type="submit">SignUp</button>
+                </a>
+            </form>
+        </div>
+
+        <div class="sign-in">
+            <p>have an account?<a href="./signIn.html" id="switchToSignIn">Sign In</a></p>
+        </div>
+    </section>
+
+    <script>
+        function showPassword() {
+            const inputPasswd = document.getElementById("input-password");
+            const konfirmPasswd = document.getElementById("konfirm-password");
+            const checkbox = document.getElementById("showPasswordCheckbox");
+
+            inputPasswd.type = checkbox.checked ? "text" : "password";
+            konfirmPasswd.type = checkbox.checked ? "text" : "password";
+        }
+        
+    </script>
+  </body>
+</html>

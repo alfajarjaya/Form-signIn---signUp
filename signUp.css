@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200;1,400&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom,#021C1E,#004445,#2C7873,#6FB98F);
+}
+
+#signUp {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    max-width: 300px;
+    max-height: 400px;
+    background: white;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 10px 20px rgba(255, 255, 0, 0.9);
+    background: linear-gradient(to top, #003B46, #07575B,#66A5AD,#C4DFE6);
+}
+
+.title-text {
+    font-size: 2rem;
+    font-weight: 600;
+    background: #003B46;
+    border-radius: 30px;
+    margin: 0px 50px;
+}
+
+.form {
+    margin: 40px auto;
+}
+
+.Sign-Up input{
+    height: 5vh;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: none;
+    color: black;
+    margin: 10px auto;
+}
+
+.show-passwd {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: start;
+}
+
+.show-passwd .checkbox {
+    width: 50px;
+    height: 20px;
+    margin: 0px;
+}
+
+.form {
+    margin: 30px auto;
+}
+
+
+.btn {
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.btn:active {
+    background: rgb(0, 255, 0);
+    transition: all 0.3s ease-in;
+}
+
+.sign-in a{
+    color: darkturquoise;
+}
+
+.sign-in a:active {
+    color: #fff;
+}
