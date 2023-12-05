@@ -47,6 +47,7 @@ body {
     border-radius: 0.5rem;
     border: none;
     color: black;
+    padding-left: 10px;
 }
 
 .passwd-user {

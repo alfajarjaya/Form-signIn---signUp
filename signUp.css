@@ -48,6 +48,7 @@ body {
     border: none;
     color: black;
     margin: 10px auto;
+    padding-left: 10px ;
 }
 
 .show-passwd {
@@ -88,4 +89,9 @@ body {
 
 .sign-in a:active {
     color: #fff;
+}
+
+.error-message {
+    color: #ff4040;
+    
 }
